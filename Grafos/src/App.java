@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Stack;
 
 public class App {
@@ -8,6 +9,6 @@ public class App {
         for(int i = 0; i < graph.nodes.size(); i++) {
             a.push(graph.nodes.get(i));
         }
-        graph.recursiveSearchByDeep("Q", a, new Stack<>());
+        graph.recursiveSearchByDeep("C", a, new ArrayList<>());
     }
 }
